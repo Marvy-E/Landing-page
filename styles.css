@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+.container{
+    padding: 30px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.heading h1{
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 950;
+}
+
+.heading p{
+    margin-top: 8px;
+}
+
+.und-1:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: rgb(198, 196, 196);
+    position: absolute;
+    top: 16%;
+    left: 46%;
+}
+
+.und-2:after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: green;
+    position: absolute;
+    top: 16%;
+    left: 48.5%;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 20px 5em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.box-1{
+    border-right: 1px solid rgb(154, 152, 152);
+    height: 140px;
+}
+
+.box-1 h4, .box-2 h4, .box-3 h4{
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+    padding: 15px;
+    color: rgb(81, 79, 79);
+}
+
+.box-2{
+    border-right: 1px solid rgb(154, 152, 152);
+}
+
+.form {
+    width: 100%;
+    padding: 0px 100px;
+    
+}
+
+#form-text {
+    margin-bottom: 1rem;
+    width: 49%;
+}
+
+#form-sub{
+    width: 98.5%;
+    margin-bottom: 1rem;
+}
+
+form input{
+    padding: 5px;
+    outline: none;
+}
+
+#text-area{
+    width: 98.5%;
+    margin-bottom: 1rem;
+    padding: 5px;
+    outline: none;
+}
+
+.btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 15%;
+    font-size: 1rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    color: green;
+}
